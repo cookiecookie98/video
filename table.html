@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+          <nav class="navbar">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png"
+              alt="Company Logo"
+            />
+            <div class="menu-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <ul class="nav no-search">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">About</a></li>
+              <li class="nav-item"><a href="#">Work</a></li>
+              <li class="nav-item"><a href="#">Careers</a></li>
+              <li class="nav-item"><a href="#">Contact Us</a></li>
+              <i class="fas fa-search" id="search-icon"></i>
+              <input class="search-input" type="text" placeholder="Search.." />
+            </ul>
+          </nav>
+        </div>
+        <section class="features">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Room</th>
+                    <th>Teacher Id</th>
+                    <th>Student Id</th>
+                    <th>Time start & Time end</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-column="First Name">James</td>
+                    <td data-column="Last Name">Matman</td>
+                    <td data-column="Job Title">Chief Sandwich Eater</td>
+                    <td data-column="Twitter">@james</td>
+                    <td><a class="btn btn-success" href="#demo-modal">Join</a></td>
+                  </tr>
+                  <tr>
+                    <td data-column="First Name">James</td>
+                    <td data-column="Last Name">Matman</td>
+                    <td data-column="Job Title">Chief Sandwich Eater</td>
+                    <td data-column="Twitter">@james</td>
+                    <td><a class="btn btn-success" href="#demo-modal">Join</a></td>
+                  </tr>
+                  <tr>
+                    <td data-column="First Name">James</td>
+                    <td data-column="Last Name">Matman</td>
+                    <td data-column="Job Title">Chief Sandwich Eater</td>
+                    <td data-column="Twitter">@james</td>
+                    <td><a class="btn btn-success" href="#demo-modal">Join</a></td>
+                  </tr>
+
+              </table>
+        </section>
+
+        <div id="demo-modal" class="modal">
+            <div class="modal__content">
+                <h1>CSS Only Modal</h1>
+        
+                <p>
+                    You can use the :target pseudo-class to create a modals with Zero JavaScript. Enjoy!
+                </p>
+        
+                <div class="modal__footer">
+                    Made with <i class="fa fa-heart"></i>, by <a href="https://twitter.com/denicmarko" target="_blank">@denicmarko</a>
+                </div>
+        
+                <a href="#" class="modal__close">&times;</a>
+            </div>
+</body>
+</html>

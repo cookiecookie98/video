@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
+    <span class="loader"></span>
     <!-- 
           padding: top right bottom left
        -->
@@ -88,5 +90,11 @@
         </div>
       </div>
     </div>
+
+    <script>
+      $(window).on('load', function () {
+          $('.loader').hide();
+      }) 
+  </script>
   </body>
 </html>
